@@ -1,0 +1,2495 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+#container {
+    font-family: 'Varela Round', sans-serif;
+    width: 960px;
+    margin: 0 auto;
+}
+
+body 
+{
+    direction:rtl;
+}
+
+#skip {
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    margin-right: 450px;
+    margin-top: -100px;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    padding:0 8px;
+    color:black;
+    font-size:18pt;
+}
+    
+#skip:focus{
+    margin-top:10px;
+}
+
+.notactiv{
+    cursor:not-allowed;
+}
+
+
+
+/*home page*/
+/*header*/
+#red {
+    background-color: #dc4741;
+    width: 391px;
+    height: 115px;
+    margin-right: -152px;
+}
+
+#blue {
+    background-color: #123e59;
+    width:872px;
+    height:135px;
+    margin-right:239px;
+    margin-top:-135px;
+}
+
+#logo {
+    background-image: url(../images/boom.png);
+    background-repeat: no-repeat;
+    background-size: 39%;
+    background-position-y: 80px;
+    background-position-x: 26px;
+    margin-top: -115px;
+    padding: 92px;
+    margin-right: -70px;
+    position: absolute;
+}
+
+#logoname {
+    margin-top: -65px;
+    margin-right: 60px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header p {
+    color: white;
+    font-size: 18pt;
+    margin-right: -15px;
+    margin-top: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#menu{
+    margin-top:-30px;
+    margin-right:270px;
+
+}
+
+    #menu ul {
+        list-style: none;
+       
+    }
+
+        #menu ul li {
+            display: inline-block;
+            float: right;
+            color: white;
+            margin: 4px 8px 0 8px;
+            height: 25px;
+            text-decoration: none;
+            text-align: right;
+            font-size: 14pt;
+            padding: 0 3px 10px 3px;
+            font-family: 'Varela Round', sans-serif !important;
+        }
+
+            #menu ul li a {
+                display: block;
+                color: white;
+                height: 30px;
+                text-decoration: none;
+                text-align: right;
+                font-size: 14pt;
+                padding: 0 3px;
+                font-family: 'Varela Round', sans-serif !important;
+            }
+
+
+
+#menu ul li ul{
+    display:none;
+    position:absolute;
+}
+
+
+
+    #menu ul li:hover > ul {
+        display: block;
+        width: 150px;
+        background-color: #123e59;
+        margin-right:-7px;
+        margin-top:10px;
+        padding-bottom:5px;
+       
+    }
+
+          
+
+            #menu ul li ul li a:hover {
+                background-color: #3d6076;
+                width: 136px;
+                padding-top: 2px;
+                padding-right: 7px;
+                margin-right: -7px;
+            }
+
+
+
+            .tal{
+                height:16px;
+            }
+
+.tal:hover {
+    background-color: #3d6076;
+    
+}
+          
+#playflash{
+    background-image:url(../images/menuflash.png);
+    display:block;
+}
+
+#movietitel {
+    width: 200px;
+    height: 30px;
+    padding: 3px;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 40px;
+    margin-top: 240px;
+    position: absolute;
+    background-color: #444444;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+#movieplay{
+    background-image:url(../images/playbig.png);
+    background-repeat:no-repeat;
+   width:148px;
+   height:140px;
+   margin-right:30px;
+   margin-top:290px;
+   position:absolute;
+}
+#gifcredit {
+    margin-top: 433px;
+    margin-right: -60px;
+    width: 375px;
+    position: absolute;
+    background-color: #444444;
+    padding: 5px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#gifcreditweb {
+    margin-top: 433px;
+    margin-right: 229px;
+    position: absolute;
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+.gifpause {
+    background-image: url(../images/gifpause.jpg);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    width: 1263px;
+    height: 467px;
+    margin-right: -152px;
+    margin-top: 40px;
+}
+
+.gifplay {
+    background-image: url(../images/gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1263px;
+    height: 467px;
+    margin-right: -152px;
+    margin-top: 40px;
+}
+
+
+.playsmall{
+    background-image:url(../images/playsmall.png);
+    background-repeat:no-repeat;
+    margin-right:910px;
+    margin-top:-5px;
+    width:58px;
+    height:50px;
+    position:absolute;
+    background-size:100%;
+}
+
+.pause {
+    background-image:url(../images/pause.png);
+    background-repeat:no-repeat;
+    margin-right: 910px;
+    margin-top: -6px;
+    width: 58px;
+    height: 50px;
+    background-size:100%;
+}
+
+
+
+
+/*header*/
+
+/*body*/
+
+
+
+#phome {
+    width: 650px;
+    height: 30px;
+    margin: 60px auto 10px auto;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#phome2 {
+    width: 222px;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 615px;
+    text-align: right;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.red1 {
+    background-color: #dc4741;
+    width:250px;
+    height:30px;
+}
+
+.blue1 {
+    background-color: #123e59;
+    width: 250px;
+    height: 377px;
+}
+
+.red2 {
+    background-color: #dc4741;
+    width: 250px;
+    height: 5px;
+}
+
+#texthome {
+    margin-top: 70px;
+}
+
+#interviewhome {
+    margin-top: -404px;
+    margin-right: 20px;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+.interviewhomep {
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#interviewhomea {
+    margin-top: 37px;
+    margin-right: 156px;
+    position: absolute;
+    background-color: #dc4741;
+    text-decoration: none;
+    font-size: 18pt;
+    color: white;
+    padding: 0 4px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#interviewhomeimg{
+    background-image:url(../images/interview.jpg);
+    background-repeat:no-repeat;
+    background-size:102%;
+    width:250px;
+    height:225px;
+    margin-top:74px;
+}
+
+
+#texthome2{
+    margin-right:350px;
+    margin-top:-407px;
+}
+
+#texthome2 a {
+    text-decoration: none;
+}
+
+#whatnewhome {
+    margin-top: -404px;
+    margin-right: 20px;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+#texthome2 p {
+    margin-top: 63px;
+    margin-right: 57px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+#whatnewhomeimg {
+    background-image:url(../images/whatsnew.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    width: 250px;
+    height: 225px;
+    margin-top:76px;
+
+}
+
+#texthome3 {
+    margin-right: 711px;
+    margin-top: -410px;
+}
+
+#jobhome {
+    margin-top: -403px;
+    margin-right: 15px;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+#texthome3 p {
+    color: white;
+    width: 200px;
+    margin-top: 44px;
+    margin-right: 22px;
+    text-decoration: none;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#jobhomeimg {
+    background-image:url(../images/jobs.jpg);
+    background-repeat:no-repeat;
+    background-size:118%;
+    width: 250px;
+    height: 225px;
+    margin-top: 153px;
+}
+
+#texthome3 a{
+    text-decoration:none;
+
+}
+/*body*/
+/*footer*/
+#bluefooter {
+    background-color: #123e59;
+    height: 10px;
+    width: 1263px;
+    position: absolute;
+    margin-top: 105px;
+    margin-right: -152px;
+}
+
+#ulfooter{
+    position:absolute;
+    margin-top:120px;
+    list-style:none;
+    margin-right:67px;
+}
+
+    #ulfooter li {
+        display: inline-block;
+        float: right;
+        text-align: right;
+        font-size: 10pt;
+        display: block;
+        color: black;
+        width: 100px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+        #ulfooter li a {
+            display: block;
+            color: black;
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            text-align: right;
+            font-size: 10pt;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        #ulfooter li ul {
+            position: absolute;
+            width: 120px;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        #ulfooter li ul a {
+            margin-top: 10px;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+/*footer*/
+/*home page*/
+
+
+
+
+
+/*sitemap*/
+
+#sitemap {
+    
+    margin-top: 160px;
+}
+
+    #sitemap h1 {
+        font-size: 16pt;
+        background-color: #dc4741;
+        width: 100px;
+        padding: 3px;
+        color: white;
+        border-left: 10px solid #123e59;
+    }
+
+    #sitemap ul li {
+        
+        margin-top: 15px;
+        list-style: none;
+    }
+
+    #sitemap ul li ul li{
+        margin-right:70px;
+        list-style:none;
+    }
+
+    #sitemap ul li a:focus{
+        background-color:yellow;
+       
+    }
+
+#playsitemap{
+    width:200px;
+    margin-right:400px;
+    margin-top:-470px;position:absolute;
+}
+
+    /*sitemap*/
+
+
+    /*contentUs*/
+    #contacus {
+        position: absolute;
+        margin-top: 160px;
+    }
+
+        #contacus h1 {
+            font-size: 16pt;
+            background-color: #dc4741;
+            width: 79px;
+            padding: 3px;
+            color: white;
+            border-left: 10px solid #123e59;
+        }
+
+
+    #contacus p{
+        margin:10px 0;
+    }
+
+    #contacus form label{
+        display:block;
+        margin:10px 0;
+    }
+
+    #contacus form input{
+        display: block;
+        margin: 10px 0;
+    }
+
+    #mainmail {
+        display: block;
+        margin: 10px 0;
+        height:125px;
+    }
+
+
+#sendform {
+    background-color: #dc4741;
+    color: white;
+}
+
+#footercontacUs{
+    margin-top:250px;
+}
+
+#playcontacUs {
+    background-image: url(../images/playcontacUs.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-top: 140px;
+    background-size: 48%;
+    margin-right: 170px;
+}
+
+   
+    /*contentUs*/
+    /*about*/
+    #odot {
+        position: absolute;
+        margin-top: 160px;
+    }
+
+
+    #odot h1 {
+        font-size: 16pt;
+        background-color: #dc4741;
+        width: 79px;
+        padding: 3px;
+        color: white;
+        border-left: 10px solid #123e59;
+    }
+
+#odot h2{
+    margin:10px 0;
+}
+
+#odot p{
+    margin:10px 0;
+}
+
+#odot ul li a{
+    text-decoration:none;
+}
+
+#odottal {
+    background-image: url(../images/odotTal.png);
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 240px;
+    margin-right: 460px;
+    background-size: 93%;
+}
+
+#odotlinoy {
+    background-image: url(../images/odotLinoy.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 246px;
+    background-size: 111%;
+    margin-top: -243px;
+    margin-right: 320px;
+}
+
+#odothit {
+    background-image: url(../images/logoHIT.jpg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 350px;
+    height: 166px;
+    margin:auto;
+    margin-top:-24px;
+}
+
+#footerodot{
+    margin-top:950px;
+}
+
+/*about*/
+
+
+/*interview*/
+
+#interview {
+    position: absolute;
+    margin-top:160px;
+}
+
+    #interview h1 {
+        font-size: 18pt;
+        background-color: #dc4741;
+        width: 100px;
+        padding: 3px;
+        color: white;
+        border-left: 10px solid #123e59;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #interview ul li {
+        list-style:none;
+        margin-top:10px;
+     }
+
+        #interview ul li a {
+            text-decoration: none;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+#interviewshai h2 {
+    margin-top: 31px;
+    background-color: #dc4741;
+    width: 177px;
+    padding: 5px;
+    height: 75px;
+    color: white;
+    margin-right: 163px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+    position: absolute;
+}
+
+#shaih2 {
+    margin-top: 69px;
+    color: white;
+    padding-right: 5px;
+    margin-right: 164px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+    position: absolute;
+}
+
+#shaiimg {
+    width: 163px;
+    height: 177px;
+    margin-top: 31px;
+}
+
+#interviewshai h3 {
+    margin: 30px 0px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#movieshai {
+    text-align: center;
+}
+
+#interviewidan h2 {
+    margin-top: 90px;
+    background-color: #dc4741;
+    width: 236px;
+    padding: 5px;
+    height: 51px;
+    color: white;
+    margin-right: 102px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+
+
+
+#idanh2 {
+    margin-top: -26px;
+    color: white;
+    margin-right: 166px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;    
+}
+
+#idanimg {
+    margin-top: 50px;
+    height: 515px;
+    width: 400px;
+}
+
+#interidan {
+    margin-right: 484px;
+    width: 400px;
+    margin-top: -530px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    #interidan h3 {
+        
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+    #interidan p {
+        padding-bottom: 10px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#blueinterviewidan {
+    width: 10px;
+    height: 564px;
+    margin-right: 435px;
+    background-color: #123e59;
+    margin-top: -568px;
+}
+
+#interviewmiki h2 {
+    margin-top: 90px;
+    background-color: #dc4741;
+    width: 324px;
+    padding: 5px;
+    height: 49px;
+    color: white;
+    margin-right: 530px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+#mikih2 {
+    margin-top: -26px;
+    color: white;
+    margin-right: 538px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+
+#mikiimg {
+    margin-top: 50px;
+    height: 424px;
+    width: 400px;
+    margin-right: 490px;
+}
+
+
+#creditmiki {
+    margin-right: 490px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#intermiki {
+    width: 400px;
+    margin-top: -418px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#intermiki h3 {
+   
+    font-family: 'Varela Round', sans-serif;
+}
+
+    #intermiki p {
+        padding-bottom: 10px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#blueinterviewmiki {
+    margin-top: -462px;
+    height: 455px;
+    width: 10px;
+    margin-right: 435px;
+    background-color: #123e59;
+}
+
+
+#interviewirit h2 {
+    margin-top: 90px;
+    background-color: #dc4741;
+    width: 328px;
+    padding: 5px;
+    height: 50px;
+    color: white;
+    margin-right: 34px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+#irith2 {
+    margin-top: -26px;
+    color: white;
+    margin-right: 45px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18pt;
+}
+
+
+#iritimg {
+    margin-top: 50px;
+    height: 470px;
+    width: 400px;
+}
+
+#interirit {
+    margin-right: 484px;
+    width: 400px;
+    margin-top: -448px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#interirit h3 {
+    
+    font-family: 'Varela Round', sans-serif;
+}
+
+    #interirit p {
+        padding-bottom: 10px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#blueinterviewirit {
+    width: 10px;
+    height: 485px;
+    margin-right: 435px;
+    background-color: #123e59;
+    margin-top: -491px;
+}
+
+#footerinterview {
+    margin-top: 3000px;
+}
+
+
+/*interview*/
+
+
+
+
+/*color*/
+
+#colors {
+    position: absolute;
+    margin-top: 160px;
+}
+
+
+
+
+
+    #colors h1 {
+        background-color: #dc4741;
+        width: 170px;
+        padding: 3px;
+        color: white;
+        border-left: 10px solid #123e59;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#colorp {
+    margin: 30px 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.wormp {
+    display: none;
+    position: absolute;
+    margin-right: 105px;
+    width: 135px;
+    height: 100px;
+    margin-top: 4px;
+    text-align: center;
+    background-color: red;
+    font-family: 'Varela Round', sans-serif;
+    padding:5px;
+}
+
+.coldp {
+    display: none;
+    position: absolute;
+    margin-right: 356px;
+    width: 135px;
+    height: 103px;
+    margin-top: 4px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.netralip {
+    display: none;
+    position: absolute;
+    margin-right: 600px;
+    width: 135px;
+    height: 103px;
+    margin-top: 4px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: darkgray;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#worm h2 {
+    margin-top: 4px;
+    position: absolute;
+    margin-right: 105px;
+    background-color: red;
+    width: 65px;
+    height: 70px;
+    padding: 10px 28px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#cold h2 {
+    margin-right: 356px;
+    margin-top: 4px;
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 65px;
+    height: 70px;
+    padding: 10px 28px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#netrali h2 {
+    margin-right: 600px;
+    margin-top: 4px;
+    position: absolute;
+    background-color: darkgray;
+    width: 65px;
+    height: 70px;
+    padding: 10px 28px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.plusworm {
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 48%;
+    margin-right: 126px;
+    margin-top: 42px;
+}
+
+.pluscold {
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 48%;
+    margin-right: 377px;
+    margin-top: 42px;
+}
+
+
+.plusnetrali {
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 48%;
+    margin-right: 621px;
+    margin-top: 42px;
+}
+
+.xworm {
+    display:none;
+    background-image: url(../images/x.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 37%;
+    margin-right: 126px;
+    margin-top: -25px;
+}
+
+.xcold {
+    display: none;
+    background-image: url(../images/x.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 37%;
+    margin-right: 378px;
+    margin-top: -25px;
+}
+
+.xnetrali {
+    display: none;
+    background-image: url(../images/x.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 37%;
+    margin-right: 623px;
+    margin-top: -25px;
+}
+
+#pblackwhite {
+    position: absolute;
+    margin-top: 185px;
+    width: 820px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#example {
+    margin-top: 345px;
+    font-size: 18pt;
+    background-color: #dc4741;
+    width: 200px;
+    padding: 3px;
+    color: white;
+    border-left: 10px solid #123e59;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#spiderman {
+    margin-top: 20px;
+    
+}
+
+    #spiderman h3 {
+        background-color: #dc4741;
+        width: 110px;
+        padding: 5px;
+        height: 25px;
+        color: white;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #spiderman p {
+        margin: 25px 0px;
+        width: 900px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#spidermanimg {
+    background-image: url(../images/spiderman.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+}
+
+
+#themask {
+    margin-top: 20px;
+}
+
+    #themask h3 {
+        background-color: #dc4741;
+        width: 110px;
+        padding: 5px;
+        height: 25px;
+        color: white;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #themask p {
+        margin: 25px 0px;
+        width: 900px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#tnemaskimg {
+    background-image: url(../images/themask.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+}
+
+#themask a {
+    margin-right: 200px;
+    margin-top: -42px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+#malifisent {
+    margin-top: 20px;
+}
+
+    #malifisent h3 {
+        background-color: #dc4741;
+        width: 110px;
+        padding: 5px;
+        height: 25px;
+        color: white;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #malifisent p {
+        margin: 25px 0px;
+        width: 900px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#malifisentimg {
+    background-image: url(../images/malifisent.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+}
+
+#malifisent a {
+    margin-right: 217px;
+    margin-top: -42px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#insideout {
+    margin-top: 20px;
+}
+
+    #insideout h3 {
+        background-color: #dc4741;
+        width: 125px;
+        padding: 5px;
+        height: 25px;
+        color: white;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #insideout p {
+        margin: 25px 0px;
+        width: 900px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#insideoutimg {
+    background-image: url(../images/insideout.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+}
+
+#insideout a {
+    margin-right: 200px;
+    margin-top: -42px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+#colorpfinal {
+    margin-top: 103px;
+    width: 765px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#colora {
+    margin-right: 642px;
+    text-decoration: none;
+    margin-top: 30px;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#footercolors{
+    margin-top:3400px;
+
+}
+
+
+
+
+/*color*/
+
+
+
+/*games*/
+
+#games{
+    position:absolute;
+    margin-top:160px;
+}
+
+    #games h1 {
+        font-size: 18pt;
+        background-color: #dc4741;
+        width: 150px;
+        padding: 3px;
+        color: white;
+        border-left: 10px solid #123e59;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+.gamesp {
+    margin: 25px 35px;
+    text-align: center;
+    width: 800px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+#kostantina {
+    margin-right: 240px;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#otaa {
+    margin-right: 115px;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#konstantin{
+    margin-top:60px;
+}
+
+#konstantinimg {
+    background-image: url(../images/konstantin.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 170px;
+    background-size: 100%;
+}
+
+#konstantin h2 {
+    background-color: #dc4741;
+    width: 307px;
+    padding: 5px;
+    height: 20px;
+    position: absolute;
+    color: white;
+    margin-right: 100px;
+    margin-top: -170px;
+    font-size: 18pt;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#konstantin p {
+    margin: -124px 110px;
+    width: 540px;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#kostantincredit {
+    margin: -15px 0 !important;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#konstantin a {
+    margin-right: 205px;
+    margin-top: -15px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#konstantin h3 {
+    margin: 50px 385px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#sub1 h4 {
+    margin-right: 10px;
+    color: white;
+    font-size: 18pt;
+    margin-top: 8px;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#sub1 ul {
+    margin-top: -23px;
+    background-color: #123e59;
+    width: 272px;
+    height: 165px;
+    border-bottom: 5px solid #dc4741;
+    border-top: 35px solid #dc4741;
+
+}
+
+#sub1 li {
+    margin-right: 10px;
+    padding-top: 10px;
+    color: white;
+    list-style: none;
+    width: 220px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+#sub2 h4 {
+    margin-right: 3px;
+    color: white;
+    font-size: 18pt;
+    position: absolute;
+    margin-top: -4px;
+    z-index: 1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#sub2 ul {
+    margin-top: -12px;
+    background-color: #123e59;
+    width: 272px;
+    position: absolute;
+    height: 165px;
+    border-bottom: 5px solid #dc4741;
+    border-top: 35px solid #dc4741;
+}
+
+#sub2 li {
+    margin-right: 10px;
+    padding-top: 10px;
+    color: white;
+    list-style: none;
+    width: 220px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#sub1 {
+    margin-right: 200px;
+}
+
+
+#sub2 {
+    margin-right: 500px;
+    margin-top: -193px;
+}
+
+#model9 {
+    margin-top: 280px;
+    margin-right: 200px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#ota {
+    margin-top: 60px;
+}
+
+#otaimg {
+    background-image: url(../images/otahagen.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 170px;
+    background-size: 100%;
+}
+
+#ota h2 {
+    background-color: #dc4741;
+    width: 220px;
+    padding: 5px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    margin-right: 100px;
+    margin-top: -170px;
+    font-size: 18pt;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#ota p {
+    margin: -124px 110px;
+    width: 540px;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#otacredit {
+    margin: -15px 0 !important;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#ota a {
+    margin-right: 165px;
+    margin-top: -15px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#ota h3 {
+    margin-top: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#question {
+    margin-top: 10px;
+    position: absolute;
+    color: white;
+    margin-right: 70px;
+    
+}
+
+
+#questiontitle {
+    color: black;
+    margin-right: 355px;
+    margin-bottom: 30px;
+    font-family: 'Varela Round', sans-serif;
+} 
+
+
+#question1 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+
+}
+
+    #question1 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question1 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+
+#question2 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-right: 300px;
+    margin-top: -185px;
+}
+
+    #question2 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question2 p {
+        position: absolute;
+        margin-top: 26px;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#question3 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-right: 600px;
+    margin-top: -185px;
+}
+
+    #question3 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question3 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#question4 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-top: 30px
+}
+
+    #question4 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question4 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#question5 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-top: -185px;
+    margin-right: 300px;
+}
+
+    #question5 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question5 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#question6 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-right: 600px;
+    margin-top: -185px;
+}
+
+    #question6 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question6 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+
+
+#question7 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-top: 30px
+}
+
+    #question7 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question7 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+#question8 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-top: -185px;
+    margin-right: 300px;
+}
+
+    #question8 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question8 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#question9 {
+    background-color: #123e59;
+    border-bottom: 5px solid #dc4741;
+    border-top: 30px solid #dc4741;
+    width: 210px;
+    height: 150px;
+    margin-right: 600px;
+    margin-top: -185px;
+}
+
+    #question9 h4 {
+        margin-top: -26px;
+        margin-right: 5px;
+        font-size: 18pt;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #question9 p {
+        position: absolute;
+        margin-top: 13px;
+        margin-right: 14px;
+        width: 170px;
+        color: white;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+
+#gamesfinal {
+    margin-top: 800px !important;
+    margin-right: 159px !important;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    width: 600px;
+}
+
+#footergames {
+    margin-top: 2100px;
+}
+
+#ulfootergames {
+    position: absolute;
+    margin-top: 120px;
+    list-style: none;
+    margin-right: 49px;
+}
+
+#ulfootergames li {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    font-size: 10pt;
+    display: block;
+    color: black;
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#ulfootergames li a {
+    display: block;
+    color: black;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 10pt;
+}
+
+#ulfootergames li ul {
+    position: absolute;
+    width: 120px;
+}
+
+    #ulfootergames li ul a {
+        margin-top: 10px;
+    }
+
+
+
+
+/*games*/
+
+
+
+
+/*director*/
+
+
+#directormaim {
+    position: absolute;
+    margin-top: 160px;
+}
+
+#dtypes {
+    font-size: 18pt;
+    background-color: #dc4741;
+    width: 140px;
+    padding: 3px;
+    color: white;
+    border-left: 10px solid #123e59;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom:30px;
+}
+
+#pdirector {
+    font-family: Varela Round;
+    margin-right: 91px;
+}
+
+#pdirector2 {
+    margin-right: 551px;
+    margin-top: 15px;
+    font-family: Varela Round;
+    font-size: 10pt;
+}
+
+
+#dcinema {
+    position: absolute;
+    margin-top: 150px;
+    margin-right:100px;
+}
+
+#dcinema h3{
+ position: absolute;
+        margin-top: -108px;
+        z-index: 1;
+        margin-right: 22px;
+        width: 134px;
+}
+
+    #dcinema p {
+        background-color: #123e59;
+        width: 200px;
+        height: 100px;
+        border-top: 38px solid #dc4741;
+        padding: 15px;
+        border-bottom: 5px solid #dc4741;
+    }
+
+
+
+#dtv {
+    position: absolute;
+    margin-right: 500px;
+    margin-top: 150px;
+}
+
+#dtv h3 {
+    position: absolute;
+    margin-top: -108px;
+    z-index: 1;
+    margin-right: 22px;
+    width: 150px;
+}
+
+    #dtv p {
+        background-color: #123e59;
+        width: 200px;
+        height: 100px;
+        border-top: 38px solid #dc4741;
+        padding: 15px;
+        border-bottom: 5px solid #dc4741;
+    }
+
+#dtheathron {
+    position: absolute;
+    margin-top: 400px;
+    margin-right:100px;
+}
+
+#dtheathron h3 {
+    position: absolute;
+    margin-top: -108px;
+    z-index: 1;
+    margin-right: 22px;
+    width: 150px;
+}
+
+    #dtheathron p {
+        background-color: #123e59;
+        width: 200px;
+        height: 100px;
+        border-top: 38px solid #dc4741;
+        padding: 15px;
+        border-bottom: 5px solid #dc4741;
+    }
+
+#dradio {
+    position: absolute;
+    margin-top: 400px;
+    margin-right: 500px;
+}
+
+#dradio h3 {
+    position: absolute;
+    margin-top: -108px;
+    z-index: 1;
+    margin-right: 22px;
+    width: 134px;
+}
+    #dradio p {
+        background-color: #123e59;
+        width: 200px;
+        height: 100px;
+        border-top: 38px solid #dc4741;
+        padding: 15px;
+        border-bottom: 5px solid #dc4741;
+    }
+
+
+
+   #tips{
+       margin-top:820px;
+   }
+
+
+
+
+
+#movied {
+    margin-bottom: 35px;
+    margin-top: -150px;
+    margin-left: 100px;
+    margin-right: 6px;
+    position: absolute;
+    color: white;
+    font-size: 18pt;
+    font-family: Varela Round;
+}
+
+.noviep {
+    margin-bottom: 35px;
+    margin-top: -114px;
+    margin-left: 100px;
+    margin-right: 16px;
+    width: 222px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+}
+
+
+#textdirector2 {
+    margin-bottom: 35px;
+    margin-top: -195px;
+    margin-left: 100px;
+    margin-right: 437px;
+}
+
+#tvd {
+    margin-bottom: 35px;
+    margin-top: -150px;
+    margin-left: 100px;
+    margin-right: 6px;
+    position: absolute;
+    color: white;
+    font-size: 18pt;
+    font-family: Varela Round;
+}
+
+#tvp {
+    margin-bottom: 35px;
+    margin-top: -114px;
+    margin-left: 100px;
+    margin-right: 16px;
+    width: 222px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+}
+
+
+#textdirector3 {
+    margin-bottom: 35px;
+    margin-top: 31px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#theatherd {
+    margin-bottom: 35px;
+    margin-top: -150px;
+    margin-left: 100px;
+    margin-right: 6px;
+    position: absolute;
+    color: white;
+    font-size: 18pt;
+    font-family: Varela Round;
+}
+
+#theatherp {
+    margin-bottom: 35px;
+    margin-top: -114px;
+    margin-left: 100px;
+    margin-right: 16px;
+    width: 222px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+}
+
+#textdirector4 {
+    margin-bottom: 50px;
+    margin-top: -194px;
+    margin-left: 100px;
+    margin-right: 440px;
+}
+
+#radiod {
+    margin-bottom: 35px;
+    margin-top: -150px;
+    margin-left: 100px;
+    margin-right: 6px;
+    position: absolute;
+    color: white;
+    font-size: 18pt;
+    font-family: Varela Round;
+}
+
+#radiop {
+    margin-bottom: 35px;
+    margin-top: -114px;
+    margin-left: 100px;
+    margin-right: 16px;
+    width: 222px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+}
+
+
+#movieandtvw {
+    background-color: #dc4741;
+    width: 254px;
+    height: 21px;
+    padding: 7px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    font-size: 18pt;
+    color: white;
+    font-family: Varela Round;
+}
+
+#moviedi {
+    background-color: #123e59;
+    width: 106px;
+    height: 0px;
+    padding: 27px;
+    margin-top: 70px;
+    margin-bottom: 61px;
+    margin-right: 316px;
+    color: white;
+    font-family: Varela Round;
+}
+
+#mdirectorimg {
+    margin-top: -97px;
+    height: 430px;
+    width: 294px;
+}
+
+#blueline1 {
+    background-color: #123e59;
+    width: 10px;
+    height: 448px;
+    margin-right: 300px;
+    margin-top: -451px;
+    margin-bottom: 197px;
+}
+
+#mdirectp {
+    width: 444px;
+    height: 515px;
+    margin-right: 319px;
+    margin-top: -373px;
+    position: absolute;
+    font-family: Varela Round;
+}
+
+
+
+#tvdi {
+    background-color: #123e59;
+    width: 106px;
+    height: 0px;
+    padding: 27px;
+    margin-top: -97px;
+    margin-bottom: 44px;
+    margin-right: 316px;
+    color: white;
+    font-family: Varela Round;
+    position: absolute;
+}
+
+#tvdirectorimg {
+    margin-top: -97px;
+    height: 447px;
+    width: 294px;
+}
+
+#blueline2 {
+    background-color: #123e59;
+    width: 10px;
+    height: 448px;
+    margin-right: 300px;
+    margin-top: -451px;
+    margin-bottom: 197px;
+}
+
+#tvdirectp {
+    width: 444px;
+    height: 515px;
+    margin-right: 319px;
+    margin-top: -373px;
+    position: absolute;
+    font-family: Varela Round;
+}
+
+
+
+
+#ability {
+    background-color: #dc4741;
+    width: 172px;
+    height: 21px;
+    padding: 7px;
+    margin-top: -64px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    font-size: 18pt;
+    color: white;
+    font-family: Varela Round;
+    position: absolute;
+}
+
+#telepormeterimg {
+    background-image: url(../images/computer.png);
+    background-repeat: no-repeat;
+    width: 1160px;
+    background-size: 54%;
+    height: 510px;
+    background-position-x: 84px;
+    position: absolute;
+    margin-right: -300px;
+    margin-top: -20px;
+}
+
+#startp {
+    height: 0px;
+    margin-top: 351px;
+    margin-right: 282px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    width: 346px;
+    text-align: center;
+}
+
+#textability {
+    margin-top: -127px;
+    margin-right: 11px;
+    position: absolute;
+}
+
+.darkred11 {
+    background-color: #dc4741;
+    width: 102px;
+    height: 65px;
+    position: absolute;
+    margin-top: -12px;
+    margin-right: -11px;
+}
+
+.multy {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 48px;
+    font-size: 18pt;
+    padding: 10px;
+    position: absolute;
+}
+
+.multyp {
+    height: 0px;
+    width: 383px;
+    margin-top: 297px;
+    margin-right: -11px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    text-align: center;
+    display: none;
+}
+
+#textability2 {
+    margin-top: -127px;
+    margin-right: 138px;
+    position: absolute;
+}
+
+
+
+.darkred22 {
+    background-color: #dc4741;
+    width: 102px;
+    height: 65px;
+    position: absolute;
+    margin-top: -12px;
+    margin-right: -11px;
+}
+
+#decision {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 48px;
+    font-size: 18pt;
+    padding: 10px;
+    position: absolute;
+}
+
+#decisionp {
+    height: 0px;
+    width: 383px;
+    margin-top: 297px;
+    margin-right: -141px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    text-align: center;
+    display: none;
+}
+
+#textability3 {
+    margin-top: -127px;
+    margin-right: 267px;
+    position: absolute;
+}
+
+
+
+.darkred33 {
+    background-color: #dc4741;
+    width: 102px;
+    height: 65px;
+    position: absolute;
+    margin-top: -12px;
+    margin-right: -11px;
+}
+
+#teamm {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 48px;
+    font-size: 18pt;
+    padding: 10px;
+    position: absolute;
+}
+
+#teammp {
+    height: 0px;
+    width: 383px;
+    margin-top: 283px;
+    margin-right: -271px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    text-align: center;
+    display: none;
+}
+
+#textability4 {
+    margin-top: -17px;
+    margin-right: 11px;
+    position: absolute;
+}
+
+
+.darkred44 {
+    background-color: #dc4741;
+    width: 102px;
+    height: 65px;
+    position: absolute;
+    margin-top: -12px;
+    margin-right: -11px;
+}
+
+#teamw {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 48px;
+    font-size: 18pt;
+    padding: 10px;
+    position: absolute;
+}
+
+#teamwp {
+    height: 0px;
+    width: 364px;
+    margin-top: 202px;
+    margin-right: -10px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    text-align: center;
+    display: none;
+}
+
+#textability5 {
+    margin-top: -17px;
+    margin-right: 138px;
+    position: absolute;
+}
+
+
+
+.darkred55 {
+    background-color: #dc4741;
+    width: 102px;
+    height: 65px;
+    position: absolute;
+    margin-top: -12px;
+    margin-right: -11px;
+}
+
+#talent {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 48px;
+    font-size: 18pt;
+    padding: 10px;
+    position: absolute;
+}
+
+#talentp {
+    height: 0px;
+    width: 402px;
+    margin-top: 204px;
+    margin-right: -154px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    text-align: center;
+    display: none;
+}
+
+#textability6 {
+    margin-top: -17px;
+    margin-right: 267px;
+    position: absolute;
+}
+
+
+.darkred66 {
+    background-color: #dc4741;
+    width: 102px;
+    height: 65px;
+    position: absolute;
+    margin-top: -12px;
+    margin-right: -11px;
+}
+
+#passion {
+    color: white;
+    background-color: red;
+    width: 80px;
+    height: 48px;
+    font-size: 18pt;
+    padding: 10px;
+    position: absolute;
+}
+
+#passionp {
+    height: 0px;
+    width: 321px;
+    margin-top: 194px;
+    margin-right: -230px;
+    color: white;
+    position: absolute;
+    font-family: Varela Round;
+    font-size: 18pt;
+    text-align: center;
+    display: none;
+}
+
+#abilitis {
+    margin-right: 276px;
+    margin-top: 165px;
+    position: absolute;
+}
+
+#footerdirector {
+    margin-top: 665px;
+}
+
+
+  
+/*director*/
+
+
+/*focus*/
+
+#logo:focus{
+    background-color:yellow;
+     
+}
+
+#menu ul li a:focus{
+    background-color:black;
+}
+
+#maincontent a:focus{
+    background-color:black;
+}
+
+footer a:focus{
+    background-color:yellow;
+}
+
+#directormaim:focus{
+    background-color:black;
+}
+
+#mdirectp a:focus {
+    background-color: black;
+}
+
+#tvdirectp a:focus {
+    background-color: black;
+}
+
+
+#interview a:focus{
+    background-color:black;
+}
+
+
+#colors a:focus {
+    background-color: black;
+}
+
+#games a:focus {
+    background-color: black;
+}
+
+#ulfootergames li a:focus {
+    background-color: yellow !important;
+}
+
+#odot a:focus{
+    background-color:black;
+}
+
+#sitemap ul li a:focus{
+    background-color:yellow;
+}
+
+#contacus a:focus{
+    background-color:black;
+}
+
+
+
+/*focus*/
+
+.marker {
+    background-color: #3d6076;
+}
+#marker1 {
+    background-color: #3d6076;
+}
+
+#marker2 {
+    background-color: #3d6076;
+}
+
+#marker3 {
+    background-color: #3d6076;
+}

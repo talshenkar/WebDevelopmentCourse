@@ -1,0 +1,302 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>BOOM - צבעים בסרטים</title>
+    <meta name="description" content="אתר המשמש מדריך לבמאי המתחיל - דף השראה צבעים בסרטים" />
+    <meta name="keywords" content="במאי, בום, צבעים, סרטים, BOOM , מדריך, צילום, דרושים" />
+    <meta name="author" content="לינוי לוי וטל שנקר" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel ="icon" href="Images/boomfavicon.png">
+
+        <!-- CSS -->
+        <link href="styles/reset.css" rel="stylesheet" />
+        <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+        <!-- Scripts -->
+        <script src="jScripts/jquery-1.12.0.min.js"></script>
+        <script src="jScripts/JavaScript.js"></script>
+        
+</head>
+<body>
+    <div id="container">
+        <a id="skip" href="#colors">דלג לתוכן העמוד</a>
+        <header>
+
+            <div id="red"></div>
+            <div id="blue"></div>
+
+            <section>
+                <a id="logo" href="index.html" alt="BOOM מעבר לדף הבית"></a>
+                <h1 id="logoname">BOOM</h1>
+                <p> המדריך לבמאי המתחיל</p>
+            </section>
+
+
+            <nav id="menu">
+                <ul>
+                    <li class="tal"><a href="director.html">הבמאי</a></li>
+                    <li class="tal">
+                        תהליך ההפקה
+                        <ul>
+                            <li><a class="notactiv" href="#">הפקת סרט</a></li>
+                            <li><a class="notactiv" href="#">סט צילומים</a></li>
+                        </ul>
+                    </li>
+                    <li class="tal"><a class="notactiv" href="#">בעלי תפקידים</a></li>
+                    <li class="tal"><a class="notactiv" href="#">חידושים</a></li>
+                    <li id="marker2" class="tal">
+                        השראה
+                        <ul>
+                            <li><a href="‏‏interview.html">ראיונות</a></li>
+                            <li><a href="colors.html">צבעים בסרטים</a></li>
+                            <li><a href="games.html">סוגי משחק</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <div id="colors">
+
+            <h1>צבעים בסרטים</h1>
+
+            <section>
+                <p id="colorp">
+                    לבמאי ישנם הרבה מסרים להעביר במהלך הצילום וזאת הוא עושה על ידי כלים רבים כגון סוג צילום, שחקנים, תפאורה ובעיקר <strong>צבעים</strong> .
+                    <br />
+                    הצבעים מתחלקים ל-3 קבוצות: (לחץ על סימן הפלוס להסבר)
+                </p>
+
+                <section>
+                    <div id="worm">
+                        <h2>צבעים חמים</h2>
+                        <div onclick="changeworm(event)" class="plusworm"></div>
+                        <div id="backgroundred"></div>
+                        <p class="wormp">
+                            <strong>צבעים חמים</strong>
+                            <br />
+                            מגרים ומעוררים את הקהל, כגון אדום כתום וצהוב
+                        </p>
+                        <div onclick="changewormx(event)" class="xworm"></div>
+
+                    </div>
+                </section>
+
+                <section>
+                    <div id="cold">
+                        <h2>צבעים קרים</h2>
+                        <div onclick="changcold(event)" class="pluscold"></div>
+                        <div id="backgroundblue"></div>
+                        <p class="coldp">
+                            <strong>צבעים קרים</strong>
+                            <br />
+                            מרגיעים ונותנים אווירת שחרור, כגון כחול, ירוק וסגול
+                        </p>
+
+                        <div onclick="changecoldx(event)" class="xcold"></div>
+
+                    </div>
+                </section>
+
+                <section>
+                    <div id="netrali">
+                        <h2>צבעים ניטרליים</h2>
+                        <div onclick="changenetrali(event)" class="plusnetrali"></div>
+                        <div id="backgroundgrey"></div>
+                        <p class="netralip">
+                            <strong>צבעים ניטרליים</strong>
+                            <br />
+                            אינם בולטים בעין והינם צבעים דהויים, כגון אפור, חום, בז' וכדו
+                        </p>
+
+                        <div onclick="changenetralix(event)" class="xnetrali"></div>
+
+                    </div>
+                </section>
+
+                <p id="pblackwhite">
+                    שחור ולבן אינם נחשבים לצבעים. לבן מעיד על כל סוגי הצבעים ומשתייך לקטגוריית צבעים קרים ואילו שחור מעיד על חוסר צבע ומשתייך לקטגוריית צבעים חמים.
+                </p>
+            </section>
+
+            <section>
+                <h2 id="example">דוגמאות מסרטים:</h2>
+
+                <section>
+                    <div id="spiderman">
+                        <h3>ספיידרמן</h3>
+                        <p>
+                            ספיידרמן הוא דמות בדיונית של גיבור-על המופיעה בחוברות הקומיקס ביקום מארוול קומיקס. ספיידרמן הוא האלטר אגו של פיטר פארקר, צלם במערכת העיתון "הדיילי ביוגל", אשר נעקץ על ידי עכביש רדיואקטיבי והופך לגיבור על. הוא משתמש בכישוריו כדי להגן על העיר, ולהילחם במגוון רחב של אויבים שרוצים לפגוע בספיידרמן או אפילו בפיטר פארקר עצמו.
+                            <br />
+                            הכוחות והיכולות המוכרות שלו: כוח פיזי מוגבר, ריפוי עצמי מהיר, מהירות וזריזות מוגברת.
+                        </p>
+
+                        <p>
+                            <strong>אדום</strong>
+                            – מסמן תשוקה, חשק, דם, אלימות, כעס, סקס, אנרגיה, אהבה ורגשות עזים.
+                        </p>
+
+                        <p>
+                            ספיידרמן, בדומה לצבע האדום, מייצג יצר אלימות וכעס ובנוסף תשוקה ואהבה לבת זוגתו ולדמות שלו.
+                        </p>
+
+                        <div id="spidermanimg" alt="תמונה ספיידרמן"></div>
+                        <p>
+                            קרדיט תמונה: Cristian Bortes / bortescristian
+                        </p>
+                    </div>
+
+                </section>
+
+                <section>
+                    <div id="themask">
+                        <h3>המסכה</h3>
+                        <p>
+                            עלילת הסדרה מתמקדת בסטנלי איפקיס, פקיד בנק זוטר, מרובע ונברוטי, אשר חי לבדו בעיר אדג' סיטי יחד עם כלבו מיילו. איפקיס הוא רומנטיקן טוב לב וחלש אופי שנותן לכולם לתמרן אותו. חייו של איפקיס משתנים אחרי שהוא מוצא מסכה עתיקה ומסתורית. כאשר איפקיס לובש את המסכה, היא נותנת לו כוחות על-טבעיים והופכת אותו לגיבור-על ירוק בן אלמוות ובלתי שפוי. כמו כן, המסכה משחררת אותו מהעכבות שלו והוא הופך להיות רומנטיקן חסר תקנה, בעל עודף ביטחון עצמי שלא נותן לאנשים לדרוך עליו. לאורך הסדרה איפקיס משתמש במסכה על מנת להילחם בפושעי העיר.
+
+                        </p>
+
+                        <p>
+                            <strong>ירוק</strong>
+                            - מסמן טבע, סביבה, קנאה, גאווה, בריאות, נדיבות ומודעות עצמית.
+                        </p>
+
+                        <p>
+                            דמותו של ה"מסכה", בדומה לצבע הירוק, מייצגת רגשות קנאה וגאווה מוחצנים, לעומת דמותו של איפקיס, המתוארת כנדבנית וחלשה.
+                        </p>
+
+                        <div id="tnemaskimg" alt="תמונה המסכה"></div>
+                        <p>
+                            קרדיט תמונה:'Mike Mozart
+                        </p>
+                        <a href="https://www.flickr.com/photos/jeepersmedia/12683186055" target="_blank">קישור לתמונה</a>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="malifisent">
+                        <h3>מליפיסנט</h3>
+                        <p>
+                            מליפיסנט היא דמות בדיונית של מכשפה מהעיבוד הקולנועי של חברת וולט דיסני למעשיית העם "היפהפייה הנרדמת" של האחים גרים. דמותה של מליפיסנט היא המשפיעה והחשובה ביותר במעשיית העם וסרט העיבוד. מליפיסנט יוצרת את הקונפליקט המרכזי ויוצרת סביבה את שלמות העלילה. יש המפרשים את דמותה של מליפיסנט כחסרת ישע אשר בסך הכל זעמה כי לא הוזמנה למסיבת יום ההולדת של היפהפייה הנרדמת, ויש המפרשים אותה כאישה רעה אשר רק חיפשה להטיל זעם ואימה.
+
+                        </p>
+
+                        <p>
+                            <strong>שחור</strong>
+                            - מסמן שלילה, עצב, ריקנות, רשע, עומק, אלגנטיות, פחד, כעס ומיניות.
+                        </p>
+
+                        <p>
+                            מליפיסנט, בדומה לצבע השחור, מייצגת רשע, הטלת פחד, עוצמתיות, כעס, עצב ויחד עם זאת, גם אלגנטיות.
+                        </p>
+
+                        <div id="malifisentimg" alt="תמונה מליפיסנט"></div>
+                        <p>
+                            קרדיט תמונה: Jorge Figueroa
+                        </p>
+                        <a href="https://www.flickr.com/photos/jiff01/13610691824/in/photostream/" target="_blank">קישור לתמונה</a>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="insideout">
+                        <h3>הקול בראש</h3>
+                        <p>
+                            עלילת הסרט מתרחשת בתוך ראשה של ילדה בת 11 בשם ריילי, המובלת בחייה על ידי חמשת רגשותיה: שמחה, פחד, כעס, גועל ועצב. חמשת רגשותיה של ריילי שוכנים במרכז המוח במקום הנקרא "המפקדה הראשית".
+                            <br />
+                            רגש השמחה של ריילי, מנסה להציג את צדדיה החיוביים בכל דבר, גם אם הוא רע, ולמנוע מריילי להיות עצובה.
+                            <br />
+                            רגש העצב של ריילי, בעלת דיכאון תמידי, שמשפיע על עבודתה לצד שאר חבריה, נתפסת כמיותרת, ונזרקת לצד בעת מקרים חשובים.
+                            <br />
+                            רגש הפחד של ריילי, הטיפוס האחראי והשמרני שמנסה לשמור על ריילי ולמנוע את ביצועם של צעדים הנראים בעיניו שגויים.
+                            <br />
+                            רגש הכעס של ריילי, הטיפוס הלא-אחראי והליברלי שמנסה לגרום לריילי למרוד בהוריה.
+                            <br />
+                            רגש הגועל של ריילי, אחראית לשמור על ריילי מדברים שאינם נראים טובים עבורה וכן לשמור על תדמיתה בפני חבריה.
+
+                        </p>
+
+                        <p>
+                            <strong>צהוב</strong>
+                            -מסמן קיץ, מנוחה, מחלה, ידע, חכמה, שמחה, תקווה ונינוחות.
+                        </p>
+                        <p>
+                            <strong>ירוק</strong>
+                            - מסמן טבע, סביבה, קנאה, גאווה, בריאות, נדיבות ומודעות עצמית.
+                        </p>
+                        <p>
+                            <strong>אדום</strong>
+                            – מסמן תשוקה, חשק, דם, אלימות, כעס, סקס, אנרגיה, אהבה ורגשות עזים.
+                        </p>
+                        <p>
+                            <strong>כחול</strong>
+                            -מסמן קור, מים, דכאון, רוחניות, רוגע, אמונה ובטחון.
+                        </p>
+                        <p>
+                            <strong>סגול</strong>
+                            -מסמן כוח, מסתוריות, יוקרה, מלכותיות, גאווה, אכזריות, אחראיות, חוכמה וקסם.
+                        </p>
+
+                        <p>
+                            בדומה לדמויות, השמחה מאופיינת בצבע צהוב שמראה על שמחה ותקווה, הגועל מאופיינת בצבע ירוק שמעיד על הסביבה ואיכותה, על בריאות ומודעות עצמית גבוהה, הכעס מאופיין בצבע אדום שמעיד על כעס ורגשות עזים, העצב מאופיינת בצבע כחול שמאפיין דכאון וקור, ופחד מאופיין בצבע סגול שמראה אחראיות וחוכמה.
+                        </p>
+
+                        <div id="insideoutimg" alt="תמונה הקול בראש"></div>
+                        <p>
+                            קרדיט תמונה: BagoGames
+                        </p>
+                        <a href="https://www.flickr.com/photos/bagogames/19995797742" target="_blank">קישור לתמונה</a>
+                    </div>
+                </section>
+
+                <p id="colorpfinal">
+                    השימוש בצבעים הוא הכרחי בהחלט על מנת להעביר את המסר החשוב לכם.
+                    ברגע שהחלטתם על המסר המרכזי בסצנה, תעזרו בצבעים, הם יוסיפו המון.
+                </p>
+
+                <a class="notactiv" id="colora" href="#">לצבעים נוספים</a>
+
+            </section>
+        </div>
+
+
+        <footer id="footercolors">
+
+            <div id="bluefooter"></div>
+
+            <ul id="ulfooter">
+                <li><a href="index.html">דף הבית</a></li>
+                <li><a href="director.html">הבמאי</a></li>
+                <li>
+                    תהליך ההפקה
+                    <ul>
+                        <li><a class="notactiv" href="#">הפקת סרט</a></li>
+                        <li><a class="notactiv" href="#">סט צילומים</a></li>
+                    </ul>
+                </li>
+                <li><a class="notactiv" href="#">בעלי תפקידים</a></li>
+                <li><a class="notactiv" href="#">חידושים</a></li>
+                <li>
+                    השראה
+                    <ul>
+                        <li><a href="‏‏interview.html">ראיונות</a></li>
+                        <li><a href="colors.html">צבעים בסרטים</a></li>
+                        <li><a href="games.html">סוגי משחק</a></li>
+                    </ul>
+                </li>
+                <li><a href="siteMap.html">מפת אתר</a></li>
+                <li><a href="contactUs.html">צור קשר</a></li>
+                <li><a href="about.html"> אודות</a></li>
+
+
+            </ul>
+        </footer>
+
+
+    </div>
+</body>
+</html>
